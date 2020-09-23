@@ -30,14 +30,6 @@ export class __Blank extends React.Component {
         }}
         style={this.props.themedStyle.Image_2}
       />
-      <Image
-        resizeMode="cover"
-        source={{
-          uri:
-            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/2_omYdIJZ.jpg"
-        }}
-        style={this.props.themedStyle.Image_3}
-      />
       <Button
         textStyle={{
           fontSize: 12,
@@ -100,23 +92,6 @@ _Blank = withStyles(__Blank, theme => ({
     overflow: "visible",
     borderColor: "#000000",
     borderStyle: "solid",
-    borderWidth: 4,
-    borderRadius: 40
-  },
-  Image_3: {
-    width: 200,
-    height: 200,
-    marginLeft: 0,
-    marginRight: 0,
-    marginTop: 0,
-    marginBottom: 0,
-    paddingLeft: 0,
-    paddingRight: 0,
-    paddingTop: 0,
-    paddingBottom: 0,
-    overflow: "visible",
-    borderColor: "#000000",
-    borderStyle: "dotted",
     borderWidth: 4,
     borderRadius: 40
   },
